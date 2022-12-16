@@ -7,7 +7,7 @@
 import random
 
 size = int(input('Введите количество элементов: '))
-li = random.sample(range(size),size)
+li = random.sample(range(10),size)
 print (li)
 sum = []
 if len(li) % 2 == 0:

@@ -9,7 +9,7 @@ def printlist (list):
     print ()
 
 size = int(input('Введите число n: '))
-li = random.sample(range(size),size)
+li = random.sample(range(10),size)
 printlist(li)
 li.reverse()
 printlist(li)

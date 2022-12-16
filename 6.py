@@ -3,13 +3,13 @@
 
 import random
 
-
+def printlist (list):
+    for i in range(len(list)):
+        print (list[i], end = '  ')
+    print ()
 
 size = int(input('Введите число n: '))
 li = random.sample(range(size),size)
-for i in range(len(li)):
-    print (li[i], end = '  ')
+printlist(li)
 li.reverse()
-print ()
-for i in range(len(li)):
-    print (li[i], end = '  ')
+printlist(li)
